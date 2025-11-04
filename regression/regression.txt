@@ -1,0 +1,15 @@
+regression :tool to predicting numbers (marks on basse of study hours)
+1.linear regression:find a pattern on base of study hours to predict marks like makeing a straight line  y=mx+b
+
+"its not about the line its about the story"
+"5 rows are enough fro a beginner to start"
+"accuracy is not always the goal"
+
+2.classification:machine learn from example and then classify things into groups 
+in this labels are given like true or false
+
+=>logistic regresssion=it will convert yes or no into 1 and 0 so convert nto binary
+
+=>KNN = based on your neighbouring values it will predict the result e.g;4 friends going for party so 5th will as well  slow for big data,always use odd value for k
+
+=>decision tree : model predict on basis of asking some questions
