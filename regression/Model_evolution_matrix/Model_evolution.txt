@@ -1,0 +1,32 @@
+accuracy : number of correct predictions from total predictions
+precison :  out of predicted values ,how many were actually positive
+Recall : number of times your model is right or positive
+F1 score : balamce bw precision and recall
+
+sklearn metrics used to getaccuracy and find error
+how good is model
+not used for training anf testing
+
+
+tips
+#accuracy is not enough if your data is unbalanced
+#use precision when false alarm are dangerous
+#use recall when missing case is dangerous
+
+
+CONFUSION MATRIX
+True +ve,TN,FP,FN
+if the value is more FP you are praising the fail students
+if the value is more FN you are ignoring the fail students
+so this table will tell you where is mistake in model
+
+MAE  MSE   RMSE
+1.Mean Absolute Error:
+-take the mistake difference
+-remove the minus sign
+-add
+-divide
+
+2.Mean square Error:square every error and then plus and then divide by this error will look large
+
+3.Root mean Square error : square root of Mean absolute error
