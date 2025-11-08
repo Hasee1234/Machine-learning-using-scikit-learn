@@ -1,0 +1,5 @@
+problem statement
+we will predict student final score on base of study hoursb using linear regression
+
+
+r2 score=the more closer to 1 more the model is better,it will tell the accuracy of model

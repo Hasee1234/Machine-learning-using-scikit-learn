@@ -1,0 +1,9 @@
+this is a 3 step formula whenever you start a project
+step 1: check if X and y are numeric
+    if yes then draw scatter plot to draw relationship between and X and y
+
+step 2 : if one column is category
+    then draw bar plot/count plot
+
+step 3 : do you want to see a distribution shape
+    then draw histogram/KDE plot/box plot
