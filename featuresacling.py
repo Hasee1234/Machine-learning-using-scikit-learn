@@ -28,8 +28,7 @@ print(pd.DataFrame(Standard_Scaled, columns=['studyHours','TestScore']))
 minmax_scalar=MinMaxScaler()
 minmax_scaled=minmax_scalar.fit_transform(df)
 print("\nminmax_scaled values",)
-print(pd.
-DataFrame(minmax_scaled,columns=['studyHours','TestScore']))
+print(pd.DataFrame(minmax_scaled,columns=['studyHours','TestScore']))
 
 #train_test split
 X=df[['studyHours']]#double bracket to show dataframe

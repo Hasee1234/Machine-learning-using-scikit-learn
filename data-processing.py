@@ -9,7 +9,6 @@ df_label=df.copy()#copy to make copy of original data so original data dont chan
 
 #label encoding
 #  to convert conditions into mathematical form like true false to 0 and 1 
-#use for columns havimg more than 2 different values
 
 le=LabelEncoder()
 df_label['Report']=le.fit_transform(df_label['Reported by Authority'])#fit transform means learn from the column and change into mathematical form 0 and 1 like here for true false

@@ -11,3 +11,5 @@ if result == 1:
     print(f"Based on your study you are likely to pass")
 else:    
     print(f"Based on your study you are likely to fail")
+
+print(result)
