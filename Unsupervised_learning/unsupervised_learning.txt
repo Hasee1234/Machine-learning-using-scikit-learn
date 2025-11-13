@@ -1,0 +1,20 @@
+unsupervised learning: in this process no labels are given model differntiate by making clusters of objects on basis of their structure etc
+
+Mean:Average of all values=>the age of all customers
+Centroid:to predict which age group of people buy which things=>you take averge of two columns an then average of two columns will matched and centroid will be like 200/30 like 200 is spen by 30 age of people
+so will distiguish the premium buyers and budget buyers ,,,,,example:two centroids:200/30 and 400/40 so people having age near 30 are in budget buyers and people near 40 years are premium buyers
+
+where to use in ML: 
+1.to find a group of people
+2.to get the average value that the buyer is normal case or special case
+3.to draw graph
+
+Distance:to find the person will go in which cluster:then collect distance between 1st person and 2nd person
+    formula:sqrt((x2-x1)2+(y2-y1)2)where x1 and y1 are age and salaries of person 1 and x2 and y2 are f person 2
+
+Variance and spread:the differnce in customers like one is spending 10 rupees and other is 800000 rupees so variance is very high   
+
+PCA: this process will compress and take some features among all features which have high variance
+    why it matters is ML:because ML sees at which point the data is chaning too much so the models like PCA will tell which feature to focus on
+formula of variance:(x-mean of x )^2+...+(xn-mean of xn)^2
+    xi=each value , mean of x=mean of all values , n=number of values ,(x-x)=distance

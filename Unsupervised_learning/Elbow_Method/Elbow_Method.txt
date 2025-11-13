@@ -1,0 +1,3 @@
+to find number of K we use elbow method
+inertia:how much dots are spread out from cluster centre,,have to keep it low always
+in this process the graph is drawn between no. of clusters and inertia then find draw the points and see where the dots start to stable that elbow point is your k

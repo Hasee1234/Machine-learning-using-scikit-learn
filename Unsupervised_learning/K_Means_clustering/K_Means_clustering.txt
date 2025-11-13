@@ -1,0 +1,12 @@
+in this method:the model will look all the spreadsheet and then divide the customers into groups or clusters on the base of """"PATTERNS"""like make group on base of spending normal and premium 
+
+K_Means:means make number of clusters:like how many clusters are needed to group students in them
+    example:short,medium,tall students will make clusters until all students are kept in their respective cluster
+    use:in malls for customers premium or normal , students normal or brilliant
+
+5 rule: make groups on base of height and weight of your class students on base of your observation without talking    
+    1.tell number of K to machine; K is number of groups
+    2.Drop 3 random points/leaders;like from where you are going to start; these are the centroids
+    3.every student will choose leader/point/centroid nearest to them
+    4.move the centroid/leader to centre;so leader move in
+    5.repeat the steps so if you think you are in wrong leader you can change  
