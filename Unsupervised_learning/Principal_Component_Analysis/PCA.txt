@@ -1,3 +1,5 @@
 we use PCA when we have a lot of features/columns in our data but we want only less feature or summary and also dont want to loose data
 
 Dimentionality reduction:to reduce columns
+
+z_score is got after standard_calar and fit transform that is caled value like -1.2 for 30000 income

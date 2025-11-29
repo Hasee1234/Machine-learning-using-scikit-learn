@@ -1,7 +1,7 @@
 from sklearn.linear_model import LogisticRegression
 
 X=[[1],[2],[3],[4],[5]]#hours studied
-y=[40,50,60,70,80]#result 0=fail,1=pass
+y=[0,0,1,1,1]#result 0=fail,1=pass
 
 model=LogisticRegression()
 model.fit(X,y)
