@@ -1,0 +1,16 @@
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder
+
+df=pd.read_csv(r"D:\Machine-learning-using-scikit-learn\Unsupervised_learning\Project\student_data_dataset.csv")
+
+print('missing values in each column')
+print(df.isnull().sum())
+
+le=LabelEncoder()
+df['Internet']=le.fit_transform(df['Internet'])#yes/no=1/0
+df['Passed']=le.fit_transform(df['Passed'])
+
+print(df.head())
+
+print("datatypes after cleaning")
+print(df.dtypes)
