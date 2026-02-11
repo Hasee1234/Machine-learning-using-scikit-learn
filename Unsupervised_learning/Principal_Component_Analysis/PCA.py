@@ -1,4 +1,4 @@
-#pca used to educe dimentionality
+#pca used to reduce dimentionality
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -13,7 +13,7 @@ data={
 }
 df=pd.DataFrame(data)
 
-# now standerize data 
+# now standerdize data 
 scaler=StandardScaler()
 #fit_transform means fit:learn from mean and standard deviation data and transform:now use the logic to scale the data          now the data is fully structured
 scaled_data=scaler.fit_transform(df)

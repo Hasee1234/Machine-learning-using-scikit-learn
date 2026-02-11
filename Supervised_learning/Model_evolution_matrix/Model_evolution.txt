@@ -1,11 +1,11 @@
 accuracy : number of correct predictions from total predictions
 precison :  out of predicted values ,how many were actually positive
 Recall : number of times your model is right or positive
-F1 score : balamce bw precision and recall
+F1 score : balance bw precision and recall
 
 sklearn metrics used to getaccuracy and find error
 how good is model
-not used for training anf testing
+not used for training and testing
 
 
 tips

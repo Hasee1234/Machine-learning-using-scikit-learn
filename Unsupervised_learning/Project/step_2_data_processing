@@ -14,3 +14,5 @@ print(df.head())
 
 print("datatypes after cleaning")
 print(df.dtypes)
+
+#3rd step is feature scaling
